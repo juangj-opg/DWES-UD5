@@ -21,3 +21,21 @@ Ejercicios del UD5
    - Muestra por pantalla el id de dicha nueva sesión.
    - ¿Qué ha sucedido? ¿Porqué?
    - Localiza en el directorio correspondiente los ficheros de sesión.
+
+# Ejercicio 3 - Sesiones
+ - **ejercicio3.php**:
+   - Inicializa una sesión.
+   - Añade 2 campos a la sesión:
+     - Nombre.
+     - Edad.
+ - **ejercicio3bis.php**:
+   - Crea un nuevo archivo e inicializa la sesión.
+   - Muestra por pantalla el valor de los dos campos.
+   - Identifica el archivo.
+   - Elimina la variable Nombre mediante la función correspondiente en el segundo script.
+     - ¿Qué sucede en el archivo?
+   - Elimina todas las variables mediante la función correspondiente en el segundo script.
+     - ¿Qué sucede?
+   - Destruye la sesión en el segundo script.
+     - ¿Qué sucede?
+
