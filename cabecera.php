@@ -28,11 +28,15 @@
 
 <!-- Menú -->
 <?php
-        $Test = $_SERVER['PHP_SELF'];
-        ?>
+        $Ruta = $_SERVER['PHP_SELF'];
+        $Nombre = explode("/",$Ruta);
+        //  echo $Nombre[2]; // Es la última ruta
+?>
 <ul>
-  <li><a <?php if($Test == "/Ejercicios_UD5/ejercicio1_creaCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_creaCookie.php">Ej. 1 - Crear Cookies</a></li>
-  <li><a <?php if($Test == "/Ejercicios_UD5/ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio1_creaCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_creaCookie.php">Ej. 1 - Crear Cookies</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - Sesiones</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio2bis.php" ) { echo "class='active'"; } ?> href="./ejercicio2bis.php">Ej. 2bis - Sesiones</a></li>
 </ul>
 
 <!-- Fin Menú -->
