@@ -37,6 +37,9 @@
   <li><a <?php if($Nombre[2] == "ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - Sesiones</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio2bis.php" ) { echo "class='active'"; } ?> href="./ejercicio2bis.php">Ej. 2bis - Sesiones</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio3.php" ) { echo "class='active'"; } ?> href="./ejercicio3.php">Ej. 3 - Crear sesiones</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio3bis.php" ) { echo "class='active'"; } ?> href="./ejercicio3bis.php">Ej. 3bis - Leer sesiones</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - Ver variables sesiones</a></li>
 </ul>
 
 <!-- Fin Menú -->
