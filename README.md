@@ -38,4 +38,15 @@ Ejercicios del UD5
      - ¿Qué sucede?
    - Destruye la sesión en el segundo script.
      - ¿Qué sucede?
+ 
+# Ejercicio 4 - Sesiones
+ - **ejercicio3.php**:
+   - Elabora un script de PHP incrustado en el lenguaje de marcas HTML5 adecuado de forma que se muestre por pantalla una tabla con el nombre de las siguientes diretivas configurables en el servidor, su función y sus posibles valores:
+     - session.use_cookies
+     - session.use_only_cookies
+     - session.save_handler
+     - session.name
+     - session.auto_start
+     - session.cookie_lifetime
+     - session.gc_maxlifetime
 
