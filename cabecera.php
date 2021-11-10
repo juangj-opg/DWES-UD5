@@ -40,6 +40,7 @@
   <li><a <?php if($Nombre[2] == "ejercicio3.php" ) { echo "class='active'"; } ?> href="./ejercicio3.php">Ej. 3 - Crear sesiones</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio3bis.php" ) { echo "class='active'"; } ?> href="./ejercicio3bis.php">Ej. 3bis - Leer sesiones</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - Ver variables sesiones</a></li>
+  <li><a <?php if($Nombre[2] == "ejercicio5.php" ) { echo "class='active'"; } ?> href="./ejercicio5.php">Ej. 5 - Autenticación SQL</a></li>
 </ul>
 
 <!-- Fin Menú -->
