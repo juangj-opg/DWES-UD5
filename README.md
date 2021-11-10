@@ -50,3 +50,14 @@ Ejercicios del UD5
      - session.cookie_lifetime
      - session.gc_maxlifetime
 
+# Ejercicio 5 - Autenticación - Registrar usuario
+  - **ejercicio5.php**
+    - Formulario con los siguientes campos: 
+      - Nombre de usuario.
+      - Contraseña.
+      - Cuenta bancaria
+    - Recuerda que antes debes **crear una base de datos** y una **tabla** con dichos campos, para confirmar que los usuarios son únicos vamos a utilizar el nombre de usuario como **clave primaria**.
+  - **ejercicio5BBDD.php**
+    - Crea una función que inserte una fila con los datos
+    - La contraseña **debe** estar encriptada.
+    - Prueba a registrar varios usuarios con la misma contraseña.
