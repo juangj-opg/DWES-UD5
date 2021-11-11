@@ -62,7 +62,7 @@ Ejercicios del UD5
     - La contraseña **debe** estar encriptada.
     - Prueba a registrar varios usuarios con la misma contraseña.
 
-# Ejercicio 6 - Autenticación - Identificar usuario
+# Ejercicio 6 - Autenticación - Autenticar usuario
   - **ejercicio6.php**
     - Formulario con los siguientes campos: 
       - Nombre de usuario.
