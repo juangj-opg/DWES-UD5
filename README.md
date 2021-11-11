@@ -61,3 +61,13 @@ Ejercicios del UD5
     - Crea una función que inserte una fila con los datos
     - La contraseña **debe** estar encriptada.
     - Prueba a registrar varios usuarios con la misma contraseña.
+
+# Ejercicio 6 - Autenticación - Identificar usuario
+  - **ejercicio6.php**
+    - Formulario con los siguientes campos: 
+      - Nombre de usuario.
+      - Contraseña.
+    - Mostrar un mensaje si se ha autentificado correctamente. 
+  - **ejercicio6BBDD.php**
+    - Crea una función getUser que busque la fila del usuario.
+    - Usar password_verify para comprobar la contraseña.
