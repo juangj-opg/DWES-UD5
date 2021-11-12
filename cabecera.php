@@ -32,7 +32,8 @@
         $Nombre = explode("/",$Ruta);
         //  echo $Nombre[2]; // Es la última ruta
 ?>
-<ul>
+<ul id="menu">
+  <li><a <?php if($Nombre[2] == "index.php" ) { echo "class='active'"; } ?> href="./index.php">Inicio</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio1_creaCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_creaCookie.php">Ej. 1 - Crear Cookies</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
   <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - Sesiones</a></li>
