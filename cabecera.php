@@ -32,23 +32,29 @@
         $Nombre = explode("/",$Ruta);
         //  echo $Nombre[2]; // Es la última ruta
 ?>
-<ul id="menu">
-  <li><a <?php if($Nombre[2] == "index.php" ) { echo "class='active'"; } ?> href="./index.php">Inicio</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio1_creaCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_creaCookie.php">Ej. 1 - Crear Cookies</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - Sesiones</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio2bis.php" ) { echo "class='active'"; } ?> href="./ejercicio2bis.php">Ej. 2bis - Sesiones</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio3.php" ) { echo "class='active'"; } ?> href="./ejercicio3.php">Ej. 3 - Crear sesiones</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio3bis.php" ) { echo "class='active'"; } ?> href="./ejercicio3bis.php">Ej. 3bis - Leer sesiones</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - Ver variables sesiones</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio5.php" ) { echo "class='active'"; } ?> href="./ejercicio5.php">Ej. 5 - Autenticación SQL</a></li>
-  <li><a <?php if($Nombre[2] == "ejercicio6.php" ) { echo "class='active'"; } ?> href="./ejercicio6.php">Ej. 6 - User Login - SQL</a></li>
-</ul>
+
+<div style="width: 25%; float:left" id="menu">
+    <ul>
+    <li><a <?php if($Nombre[2] == "index.php" ) { echo "class='active'"; } ?> href="./index.php">Inicio</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio1_creaCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_creaCookie.php">Ej. 1 - Crear Cookies</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio1_leeCookie.php" ) { echo "class='active'"; } ?> href="./ejercicio1_leeCookie.php">Ej. 1 - Leer Cookies</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - Sesiones</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio2bis.php" ) { echo "class='active'"; } ?> href="./ejercicio2bis.php">Ej. 2bis - Sesiones</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio3.php" ) { echo "class='active'"; } ?> href="./ejercicio3.php">Ej. 3 - Crear sesiones</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio3bis.php" ) { echo "class='active'"; } ?> href="./ejercicio3bis.php">Ej. 3bis - Leer sesiones</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - Ver variables sesiones</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio5.php" ) { echo "class='active'"; } ?> href="./ejercicio5.php">Ej. 5 - Autenticación SQL</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio6.php" ) { echo "class='active'"; } ?> href="./ejercicio6.php">Ej. 6 - User Login - SQL</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio7.php" ) { echo "class='active'"; } ?> href="./ejercicio7.php">Ej. 7 - Rols - SQL</a></li>
+    </ul>
+</div>
+
+
+
 
 <!-- Fin Menú -->
 
 <!-- Contenido -->
 
-<div id="contenido" style="margin-left:25%;padding:1px 16px;">
-    <div id="contenido2">
+<div style="width: 74%; float:right">
         
