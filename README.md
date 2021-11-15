@@ -79,8 +79,8 @@ Ejercicios del UD5
       - Nombre de usuario.
       - Contraseña. 
     - Si al darle **Login**, la contraseña coincide con `password_verify()` con el de la tabla redireccionará segun su perfil:
-      - Si el usuario es 'admin', irá a 'admin.php'.
-      - Si el usuario es 'usuario', irá a 'usuario.php'.
+      - Si el usuario es `admin`, irá a `admin.php`.
+      - Si el usuario es `usuario`, irá a `usuario.php`.
       - Si el usuario no tiene ningún rol, no irá a ningún lado.
     - Guarda en una sesión el rol del usuario autentificado. 
   - **ejercicio7BBDD.php**
