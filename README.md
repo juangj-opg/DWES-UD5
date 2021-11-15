@@ -89,7 +89,7 @@ Ejercicios del UD5
     - Si la sesión del rol, es `admin`, mostrará el siguiente mensaje: 'Eres el jefe supremo.'.
     - Si la sesión del rol, es `usuario`, redireccionará a `usuario.php`.
     - Si no existe ninguna sesión de rol o no es ninguno de los anteriores, redireccionará a `ejercicio7.php`.
-  - **admin.php**
+  - **usuario.php**
     - Si la sesión del rol, es `usuario`, mostrará el siguiente mensaje: 'Hola pringao.'.
     - Si la sesión del rol, es `admin`, mostrará el siguiente mensaje: 'Eres el jefe supremo, ¿no quieres ir a tu página?'.
     - Si no existe ninguna sesión de rol o no es ninguno de los anteriores, redireccionará a `ejercicio7.php`.
