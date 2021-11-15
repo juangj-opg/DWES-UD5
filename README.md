@@ -70,4 +70,27 @@ Ejercicios del UD5
     - Mostrar un mensaje si se ha autentificado correctamente. 
   - **ejercicio6BBDD.php**
     - Crea una función getUser que busque la fila del usuario.
-    - Usar password_verify para comprobar la contraseña.
+    - Usar `password_verify` para comprobar la contraseña.
+
+# Ejercicio 7 - Autenticación - Autenticar usuario con perfiles
+  - Añadir en el SQL una nueva columna llamada `perfil` 
+  - **ejercicio7.php**
+    - Formulario login con los siguientes campos: 
+      - Nombre de usuario.
+      - Contraseña. 
+    - Si al darle **Login**, la contraseña coincide con `password_verify()` con el de la tabla redireccionará segun su perfil:
+      - Si el usuario es 'admin', irá a 'admin.php'.
+      - Si el usuario es 'usuario', irá a 'usuario.php'.
+      - Si el usuario no tiene ningún rol, no irá a ningún lado.
+    - Guarda en una sesión el rol del usuario autentificado. 
+  - **ejercicio7BBDD.php**
+    - Misma función getUser() que `ejercicio6BBDD.php`, con la diferencia de que ahora devolverá también la columna **perfil**.
+  - **admin.php**
+    - Si la sesión del rol, es `admin`, mostrará el siguiente mensaje: 'Eres el jefe supremo.'.
+    - Si la sesión del rol, es `usuario`, redireccionará a `usuario.php`.
+    - Si no existe ninguna sesión de rol o no es ninguno de los anteriores, redireccionará a `ejercicio7.php`.
+  - **admin.php**
+    - Si la sesión del rol, es `usuario`, mostrará el siguiente mensaje: 'Hola pringao.'.
+    - Si la sesión del rol, es `admin`, mostrará el siguiente mensaje: 'Eres el jefe supremo, ¿no quieres ir a tu página?'.
+    - Si no existe ninguna sesión de rol o no es ninguno de los anteriores, redireccionará a `ejercicio7.php`.
+   
